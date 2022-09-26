@@ -1,0 +1,22 @@
+html, body {
+	margin: 0;
+	background-color: #223;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	width: 100vw;
+}
+
+body>div {
+	width: calc(100%-2em);
+	max-width: 30em;
+	height: auto;
+	margin: 1em;
+	color: #bbb;
+	font-family:'Courier New', Courier, monospace;
+}
