@@ -1,6 +1,13 @@
+@font-face {
+	font-family: 'Fira Code';
+	src: url(fonts/FiraCode-Regular.woff2) format('woff2'),
+		url(fonts/FiraCode-Regular.woff) format('woff');
+	font-feature-settings: 'onum';
+}
+
 html, body {
 	margin: 0;
-	background-color: #223;
+	background-color: #234;
 }
 
 body {
@@ -14,9 +21,9 @@ body {
 
 body>div {
 	width: calc(100%-2em);
-	max-width: 30em;
+	max-width: 40em;
 	height: auto;
 	margin: 1em;
-	color: #bbb;
-	font-family:'Courier New', Courier, monospace;
+	color: #ddd;
+	font-family:'Fira Code', Courier, monospace;
 }
