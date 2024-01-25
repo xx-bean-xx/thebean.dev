@@ -5,25 +5,43 @@
 	font-feature-settings: 'onum';
 }
 
+.codeblock {
+	font-family: 'Fira Code', Courier, monospace;
+	color: #ddd;
+	background-image: url('/img/darknoise.png');
+	background-repeat: repeat;
+}
+
+
+
 html, body {
 	margin: 0;
-	background-color: #234;
+	background-image: url(/img/darknoise.png);
 }
 
 body {
+	font-family:'Fira Code', Courier, monospace;
+	color: #ddd;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
 	width: 100vw;
+	/* overflow-x: hidden; */
 }
 
-body>div {
+body>article {
 	width: calc(100%-2em);
 	max-width: 40em;
 	height: auto;
 	margin: 1em;
-	color: #ddd;
-	font-family:'Fira Code', Courier, monospace;
+}
+
+.splash {
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	max-width: 40em;
+	padding: 1em 1em 1em 1em;
 }

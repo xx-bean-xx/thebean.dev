@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Besley';
+    src: url('Besley.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Besley';
+    src: url('Besley-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+
